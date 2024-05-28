@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap");
+
+@font-face {
+  font-family: machina;
+  src: url(./NeueMachina-Regular.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #111; */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(download.png);
+  margin: 0;
+  font-family: machina;
+}
+
+h1 {
+  font-family: machina;
+  font-weight: 750;
+  margin-top: 5rem;
+  color: #ffffff;
+  font-size: 4.375rem;
+  text-align: center;
+}
+
+#container {
+  margin-top: 3.125rem;
+  height: 18.75rem;
+  width: 37.5rem;
+  background-color: white;
+  border-radius: 1.25rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  box-shadow: 0rem 0.75rem 0.063rem --0.313rem #cddaf3; /*cddaf3*/
+}
+
+.first {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.second {
+  width: 100%;
+  display: flex;
+  /*margin: 0 20px 0 20px;*/
+}
+
+.third {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*timers*/
+.label {
+  color: #464a67;
+  align-self: center;
+  justify-self: center;
+
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+
+.timer {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+
+p {
+  color: #464a67;
+  margin: 0;
+  padding: 0;
+}
+
+#counter {
+  margin: 0 7.813rem 0;
+  color: red;
+}
+
+#work-timer {
+  margin: 0 0 0 5.125rem;
+}
+
+/*buttons*/
+
+.btn {
+  align-self: center;
+  justify-self: center;
+
+  width: 6.25rem;
+  height: 1.875rem;
+
+  font-size: 1.25rem;
+  border-radius: 0.313rem;
+  border: none;
+}
+
+#start {
+  background: #639b1b;
+}
+
+#stop {
+  background: #e52424;
+}
+
+#reset {
+  background: orange;
+}
+
+.btn:hover {
+  cursor: pointer;
+  width: 6.375rem;
+  height: 1.938rem;
+}
+
+#start:hover {
+  background: #4e7e11;
+}
+
+#stop:hover {
+  background: #7c0e0e;
+}
+
+#reset:hover {
+  background: rgb(173, 113, 0);
+}
+
+.footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: rgb(221, 255, 0);
+  position: absolute;
+  bottom: 1.25rem;
+  right: 1.25rem;
+}
